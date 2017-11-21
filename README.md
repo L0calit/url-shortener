@@ -10,14 +10,14 @@ URL Shortener Microservice
 Example for creation : 
 -------------------------
 
-https://little-url.herokuapp.com/new/https://www.google.com
+https://url-shortener-project.glitch.me//new/https://www.google.com
 
-https://little-url.herokuapp.com/new/http://foo.com:80
+https://url-shortener-project.glitch.me//new/http://foo.com:80
 
 # Output :
-{ "original_url":"http://foo.com:80", "short_url":"https://little-url.herokuapp.com/8170" }
+{ "original_url":"http://foo.com:80", "short_url":"https://url-shortener-project.glitch.me/8170" }
 
 Example usage : 
 -------------------------
 
-https://little-url.herokuapp.com/2871
+https://url-shortener-project.glitch.me/2871
